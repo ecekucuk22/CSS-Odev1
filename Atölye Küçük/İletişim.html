@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atölye Küçük </title>
+
+    <style>
+        body {
+            background-color: #427D9D;
+        }
+
+        h1 {
+            color: #FF6C22;
+            text-align: center;
+        }
+
+        h2 {
+            color: #FFA33C;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        nav {
+            text-align: center;
+            color: azure;
+        }
+
+        p {
+            text-align: center;
+            color: azure;
+            font-size: 20px;
+        }
+
+        .saat-emoji {
+            font-size: 1.5em;
+            color: azure; 
+        }
+
+        div {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #164863;
+            color: #FF6C22;
+            padding: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Atölye Küçük </h1>
+    </header>
+
+    <nav>
+        <a href="index.html"> Ana Sayfa</a>
+        <a href="Hakkımızda.html"> Hakkımızda </a>
+        <a href="Ürünlerimiz.html"> Ürünlerimiz </a>
+        <a href="İletişim.html"> İletişim</a>
+    </nav>
+
+    <br>
+    <hr color="#FF6C22">
+    <br>
+    <p class="saat-emoji">&#x1F551; Çalışma saatlerimiz: 10:00-02:00 </p>
+    <p>Sipariş ve workshop bilgileri için bizimle iletişime geçebilirsiniz.</p>
+    <h2> İletişim </h2> 
+    <br>
+
+    <div  class="section" id="iletişim">        
+            <form action="/submit_form" method="post">
+                <label for="ad">Adınız:</label>
+                <input type="text" id="ad" name="ad" required><br><br>
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mesaj">Mesajınız:</label><br>
+                <textarea id="mesaj" name="mesaj" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Gönder">
+            </form>
+            <div class="contact-info">
+                <p>Email: infp@turkiye.com</p>
+                <p>Telefon: +90 555 555 ** **</p>
+                <p>Adres: İncirli Caddesi No: 2* İstanbul/Türkiye</p>
+            </div>
+    </div>
+    <br>
+    <br>
+
+    <footer>
+        <p>Atölye Küçük Tanıtımı &copy; 2023. Tüm hakları saklıdır.</p>
+    </footer>
+    
+    
+    
+    
+</body>
+</html>
